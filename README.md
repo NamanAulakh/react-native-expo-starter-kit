@@ -12,7 +12,7 @@ For now, it includes following:
 * `remote-redux-devtools`: to help visualize global redux store and actions.
 
 Steps to run the project:
-* `yarn install && npm run ios`
+* `yarn install && npm run ios`  
 
-If everything goes well, you should see this screen:
-![Alt text](/assets/yo.png?raw=true "Main Screen")
+If everything goes well, you should see this screen:  
+![alt text](/assets/yo.png?raw=true "Main Screen")
