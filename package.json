@@ -1,7 +1,7 @@
 {
   "name": "react-native-expo-starter-kit",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
