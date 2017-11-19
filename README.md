@@ -15,4 +15,5 @@ Steps to run the project:
 * `yarn install && npm run ios`  
 
 If everything goes well, you should see this screen:  
+
 ![alt text](/assets/yo.png?raw=true "Main Screen")
