@@ -10,3 +10,6 @@ For now, it includes following:
 * `lodash`: to help code in js.
 * `husky`: to ensure that only error free code is pushed to git.
 * `remote-redux-devtools`: to help visualize global redux store and actions.
+
+Steps to run the project:
+* `yarn install && npm run ios`
