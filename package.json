@@ -2,6 +2,10 @@
   "name": "react-native-expo-starter-kit",
   "version": "0.1.0",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NamanAulakh/react-native-expo-starter-kit"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
