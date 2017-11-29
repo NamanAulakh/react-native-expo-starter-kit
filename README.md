@@ -2,6 +2,7 @@ A starter kit to quickly start developing a react-native app which was bootstrap
 
 For now, it includes following:
 * `eslint`: to ensure error free code.
+* `flow`: to understand most of your code, as it helps in easily traversing the code and understand relationships much better.
 * `babel`: for es6.
 * `redux`: to manage state of the app.
 * `redux-thunk`: to help redux in handling api calls.

@@ -25,7 +25,11 @@
     "remote-redux-devtools": "^0.5.12",
     "react-native-scripts": "1.7.0",
     "jest-expo": "^22.0.0",
-    "react-test-renderer": "16.0.0-beta.5"
+    "react-test-renderer": "16.0.0-beta.5",
+    "babel-preset-flow": "^6.23.0",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "flow-bin": "^0.57.3",
+    "flow-typed": "^2.2.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -35,7 +39,7 @@
     "ios": "react-native-scripts ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
     "postinstall": "rndebugger-open",
-    "precommit": "yarn eslint src"
+    "precommit": "yarn eslint src && yarn flow"
   },
   "jest": {
     "preset": "jest-expo"

@@ -1,9 +1,21 @@
-/* eslint-disable */
+// @flow
 import React, { Component } from 'react'
 import { View, Text } from 'react-native'
 import { connect } from 'react-redux'
 
-class Root extends Component {
+type State = {
+  yo: string,
+}
+
+class Root extends Component<null, State> {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      yo: 'yo',
+    }
+  }
+
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
